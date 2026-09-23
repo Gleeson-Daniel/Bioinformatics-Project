@@ -1,0 +1,9 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+*.egg-info/
+data/SRP119064.tsv
