@@ -14,9 +14,9 @@ results = gp.profile(
     all_results=True,
 )
 
-results.to_csv("results/enrichment_1.csv", index=False)
+results.to_csv("results/enrichment_gprofiler2.csv", index=False)
 
 print(f"Tested {results.shape[0]} GO:BP terms")
 if "significant" in results.columns:
     print(f"{int((results['significant'] == True).sum())} terms significant")
-print("Wrote results/enrichment_1.csv")
+print("Wrote results/enrichment_gprofiler2.csv")
