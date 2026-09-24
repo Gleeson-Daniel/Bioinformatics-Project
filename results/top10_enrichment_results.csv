@@ -1,0 +1,11 @@
+native,name,Wilcoxon_p,Wilcoxon_FDR,Wilcoxon_significant,gProfiler_p,gProfiler_significant,methods_included,methods_significant
+GO:0000184,"nuclear-transcribed mRNA catabolic process, nonsense-mediated decay (GO:0000184)",4.6205869599395584e-08,1.9473207043389714e-05,True,,,1,1
+GO:0000902,cell morphogenesis,,,,1.946938755999238e-09,True,1,1
+GO:0000956,nuclear-transcribed mRNA catabolic process (GO:0000956),1.0148266998536593e-07,3.4993069750408454e-05,True,,,1,1
+GO:0001933,negative regulation of protein phosphorylation (GO:0001933),3.3996806017490616e-05,0.0040296839132606,True,,,1,1
+GO:0002181,cytoplasmic translation (GO:0002181),9.322108535355713e-14,3.5358757674604207e-10,True,,,1,1
+GO:0003015,heart process (GO:0003015),0.0013687894599091,0.0485216674900512,True,,,1,1
+GO:0006090,pyruvate metabolic process (GO:0006090),7.485536981891453e-05,0.0066928464774405,True,,,1,1
+GO:0006096,glycolytic process (GO:0006096),0.0001685557010188,0.0110017152937492,True,,,1,1
+GO:0006325,chromatin organization,,,,2.943097998409516e-06,True,1,1
+GO:0006338,chromatin remodeling,,,,1.5293353385165634e-05,True,1,1
