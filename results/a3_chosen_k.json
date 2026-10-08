@@ -1,3 +1,4 @@
 {
-  "kmeans": 2
+  "kmeans": 2,
+  "hclust": 2
 }
