@@ -1,0 +1,41 @@
+method,target,genes_A,genes_B,size_A,size_B,shared,jaccard,shared_genes
+logreg,genotype,10,100,4,2,0,0.0,
+logreg,genotype,10,1000,4,5,0,0.0,
+logreg,genotype,10,5000,4,3,0,0.0,
+logreg,genotype,10,10000,4,4,0,0.0,
+logreg,genotype,100,1000,2,5,1,0.167,Treml1
+logreg,genotype,100,5000,2,3,1,0.25,Treml1
+logreg,genotype,100,10000,2,4,1,0.2,Treml1
+logreg,genotype,1000,5000,5,3,2,0.333,"Hspa5, Treml1"
+logreg,genotype,1000,10000,5,4,1,0.125,Treml1
+logreg,genotype,5000,10000,3,4,1,0.167,Treml1
+logreg,cluster,10,100,2,13,0,0.0,
+logreg,cluster,10,1000,2,31,0,0.0,
+logreg,cluster,10,5000,2,45,1,0.022,Zbtb20
+logreg,cluster,10,10000,2,63,1,0.016,Mef2c
+logreg,cluster,100,1000,13,31,12,0.375,"Arpp19, Cabp7, Cpne6, Cpne7, Dock9, Fibcd1, Gria1, Hpca, Ipcef1, Ngef, Rgs4, St6galnac5"
+logreg,cluster,100,5000,13,45,13,0.289,"Arpp19, Cabp7, Cpne6, Cpne7, Dock9, Fibcd1, Gria1, Hpca, Ipcef1, Ngef, Rgs4, St6galnac5, Stx1a"
+logreg,cluster,100,10000,13,63,11,0.169,"Arpp19, Cabp7, Cpne6, Cpne7, Gria1, Hpca, Ipcef1, Ngef, Rgs4, St6galnac5, Stx1a"
+logreg,cluster,1000,5000,31,45,27,0.551,"Arpp19, Ca10, Cabp7, Cpne5, Cpne6, Cpne7, Dock9, Fibcd1, Gabra3, Gabra5, Gpr161, Gria1, Gucy1a1, Hpca, Ipcef1, Kcnv1, Lamp5, Ngef, Penk, Prkar1b, Prox1, Rasgrf2, Rgs4, Scn4b, Slc39a10, St6galnac5, Stk32c"
+logreg,cluster,1000,10000,31,63,26,0.382,"Arpp19, Ca10, Cabp7, Cpne5, Cpne6, Cpne7, Gabra3, Gabra5, Gpr161, Gria1, Gucy1a1, Hpca, Ipcef1, Kcnv1, Lamp5, Negr1, Ngef, Nsmf, Penk, Prkar1b, Rasgrf2, Rgs4, Scn4b, Slc39a10, St6galnac5, Stk32c"
+logreg,cluster,5000,10000,45,63,32,0.421,"Arpp19, Atp1a1, Ca10, Cabp7, Camkk2, Cpne5, Cpne6, Cpne7, Crym, Gabra3, Gabra5, Galnt17, Gpr161, Gria1, Gucy1a1, Hpca, Ipcef1, Kcnv1, Lamp5, Ngef, Pcsk2, Penk, Prkar1b, Rasgrf2, Rgs4, Rgs6, Scn4b, Slc39a10, St6galnac5, Stk32c, Stx1a, Tbr1"
+rf,genotype,10,100,10,50,7,0.132,"ENSMUSG00000092909, Enpp2, Gh, Mef2c, Mir6236, Mir6240, Ttr"
+rf,genotype,10,1000,10,50,3,0.053,"Enpp2, Mef2c, Ttr"
+rf,genotype,10,5000,10,50,2,0.034,"Enpp2, Ttr"
+rf,genotype,10,10000,10,50,1,0.017,Enpp2
+rf,genotype,100,1000,50,50,20,0.25,"AA474408, Arc, Cabp7, Cpne7, ENSMUSG00000076258, ENSMUSG00000098178, Egr1, Enpp2, Hpca, Ipcef1, Kl, Lars2, Mef2c, Miat, Ptgds, Scn4b, Treml1, Trpm3, Ttr, Wipf3"
+rf,genotype,100,5000,50,50,17,0.205,"Arc, Cabp7, Dpp10, ENSMUSG00000098178, Egr1, Enpp2, Gpr88, Ipcef1, Kl, Lars2, Miat, Ptgds, Scn4b, Treml1, Trpm3, Ttr, Wipf3"
+rf,genotype,100,10000,50,50,6,0.064,"Arc, ENSMUSG00000098178, Enpp2, Ptgds, Treml1, Trpm3"
+rf,genotype,1000,5000,50,50,34,0.515,"5730419F03Rik, Arc, Cabp7, Camkk2, ENSMUSG00000095041, ENSMUSG00000098178, Egr1, Egr3, Enpp2, F5, Gabra1, Homer1, Hspa5, Ipcef1, Kcnf1, Kl, Lars2, Lcn2, Miat, Mid1, Nr4a1, Pdp1, Plcxd2, Ptgds, R3hdm1, Rnf112, Scn4b, Serpini1, Tmem132a, Treml1, Trpm3, Ttr, Tyro3, Wipf3"
+rf,genotype,1000,10000,50,50,19,0.235,"5730419F03Rik, Arc, Ddn, ENSMUSG00000095041, ENSMUSG00000098178, Egr3, Enpp2, Gabra1, Homer1, Hspa5, Kcnf1, Mid1, Nr4a1, Pdp1, Plcxd2, Ptgds, R3hdm1, Treml1, Trpm3"
+rf,genotype,5000,10000,50,50,25,0.333,"5730419F03Rik, Arc, ENSMUSG00000095041, ENSMUSG00000098178, Egr3, Enpp2, Erdr1y, Gabra1, Gm38199, Gm43727, Gm49893, Homer1, Hspa5, Igsf9b, Itpr1, Kcnf1, Mid1, Nr4a1, Pcsk2, Pdp1, Plcxd2, Ptgds, R3hdm1, Treml1, Trpm3"
+rf,cluster,10,100,10,50,3,0.053,"Mef2c, Ttr, Zbtb20"
+rf,cluster,10,1000,10,50,0,0.0,
+rf,cluster,10,5000,10,50,0,0.0,
+rf,cluster,10,10000,10,50,0,0.0,
+rf,cluster,100,1000,50,50,22,0.282,"Arhgap32, Arpp19, Arpp21, Camk2n1, Cpne6, Cpne7, Dock9, Dpp10, Dsp, Fibcd1, Gabra5, Gria1, Ipcef1, Ngef, Pcdh20, Penk, Scn4b, Slit1, Stmn1, Stx1a, Tanc1, Wipf3"
+rf,cluster,100,5000,50,50,17,0.205,"Arpp19, Arpp21, Cabp7, Cpne6, Crym, Ctxnd1, Dpp10, Dsp, Fibcd1, Lamp5, Ngef, Osbpl1a, Penk, Rims3, Scn4b, Tanc1, Wipf3"
+rf,cluster,100,10000,50,50,12,0.136,"Arpp21, Cabp7, Dock4, Dpp10, Fibcd1, Gria1, Hpca, Lamp5, Pcdh20, Penk, Rims3, Slit1"
+rf,cluster,1000,5000,50,50,25,0.333,"Arhgef25, Arpp19, Arpp21, Ca10, Cpne6, Dpp10, Dsp, Efhd2, Fibcd1, Gpr161, Ksr1, Neurod6, Ngef, Nrip3, Nsmf, Penk, Prkar1b, Rasgrf2, Rcan2, Rgs6, Scn4b, Tanc1, Tmem132a, Tyro3, Wipf3"
+rf,cluster,1000,10000,50,50,15,0.176,"Arpp21, Ddn, Dpp10, Fibcd1, Gpr161, Gria1, Myo5b, Nt5dc3, Pcdh20, Penk, Rasgrf2, Rcan2, Slit1, Stk32c, Tmem132a"
+rf,cluster,5000,10000,50,50,22,0.282,"Arpp21, Cabp7, Camkk2, Dpp10, Fgfr1, Fibcd1, Gpr161, Iqgap2, Lamp5, Lct, Pcp4, Penk, Plcxd2, Prkacb, Prkcg, Rasgrf2, Rcan2, Rims3, Satb2, Sipa1l3, Tbr1, Tmem132a"

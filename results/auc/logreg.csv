@@ -1,0 +1,11 @@
+method,target,n_genes,auc,accuracy,signature_size
+logreg,genotype,10,0.4259551409561698,0.45134575569358176,4
+logreg,genotype,100,1.0,0.9813664596273292,2
+logreg,genotype,1000,1.0,0.9979296066252588,5
+logreg,genotype,5000,1.0,1.0,3
+logreg,genotype,10000,1.0,0.9979296066252588,4
+logreg,cluster,10,1.0,1.0,2
+logreg,cluster,100,1.0,1.0,13
+logreg,cluster,1000,1.0,1.0,31
+logreg,cluster,5000,1.0,1.0,45
+logreg,cluster,10000,1.0,1.0,63

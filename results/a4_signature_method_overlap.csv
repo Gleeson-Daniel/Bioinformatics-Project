@@ -1,0 +1,11 @@
+target,n_genes,method_A,method_B,size_A,size_B,shared,shared_genes
+genotype,10,logreg,rf,4,10,4,"Enpp2, Gh, Mir6236, Rps27rt"
+genotype,100,logreg,rf,2,50,2,"Arc, Treml1"
+genotype,1000,logreg,rf,5,50,5,"Egr3, Homer1, Hspa5, Mid1, Treml1"
+genotype,5000,logreg,rf,3,50,3,"Hspa5, Igsf9b, Treml1"
+genotype,10000,logreg,rf,4,50,4,"Dnajb5, Fosl2, Rbm3, Treml1"
+cluster,10,logreg,rf,2,10,2,"Mef2c, Zbtb20"
+cluster,100,logreg,rf,13,50,13,"Arpp19, Cabp7, Cpne6, Cpne7, Dock9, Fibcd1, Gria1, Hpca, Ipcef1, Ngef, Rgs4, St6galnac5, Stx1a"
+cluster,1000,logreg,rf,31,50,20,"Arpp19, Ca10, Cpne6, Cpne7, Dock9, Fibcd1, Gabra3, Gabra5, Gpr161, Gria1, Ipcef1, Kcnv1, Ngef, Nsmf, Penk, Prkar1b, Prox1, Rasgrf2, Scn4b, Stk32c"
+cluster,5000,logreg,rf,45,50,23,"Arpp19, Ca10, Cabp7, Camkk2, Cpne5, Cpne6, Crym, Dpp10, Fibcd1, Galnt17, Gpr161, Lamp5, Ngef, Osbpl1a, Pcsk2, Penk, Prkar1b, Rasgrf2, Rcan2, Rgs6, Scn4b, Tbr1, Wipf3"
+cluster,10000,logreg,rf,63,50,21,"Arpp21, Atp1a1, Brd9, Cabp7, Cacng3, Camkk2, Doc2b, Gabrd, Gpr161, Gria1, Gucy1a1, Gucy1b1, Hpca, Klhl2, Lamp5, Penk, Prkacb, Rasgrf2, Rims3, Stk32c, Tbr1"

@@ -1,0 +1,9 @@
+test,models,statistic,p,note,p_adj_BH
+Label stability: genotype vs cluster,all,,,undefined: one variable is constant (every model agreed on every sample),
+Confidence: genotype vs cluster,all,0.11018481461136406,0.015407056305420542,Spearman rho,0.03851764076355135
+Label stability: genotype vs cluster,logreg,,,undefined: one variable is constant (every model agreed on every sample),
+Confidence: genotype vs cluster,logreg,-0.04678300231249896,0.3048632660807218,Spearman rho,0.3048632660807218
+Label stability: genotype vs cluster,rf,,,undefined: one variable is constant (every model agreed on every sample),
+Confidence: genotype vs cluster,rf,0.2086128841095877,3.7671943698644627e-06,Spearman rho,1.8835971849322313e-05
+"Confidence: genotype vs cluster (animal averages, n=64)",all,0.1628205128205128,0.19862136361189375,Spearman rho,0.2482767045148672
+Genotype stability: cluster 1 vs cluster 2,all,27078.5,0.16924013292717466,Mann-Whitney U (median 0.90 vs 0.90),0.2482767045148672

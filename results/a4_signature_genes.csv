@@ -1,0 +1,213 @@
+gene_id,symbol,n_signatures,signatures
+ENSMUSG00000009075,Cabp7,10,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_100g; logreg_cluster_5000g; rf_cluster_10000g; rf_cluster_100g; rf_cluster_5000g; rf_genotype_1000g; rf_genotype_100g; rf_genotype_5000g
+ENSMUSG00000064065,Ipcef1,9,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_100g; logreg_cluster_5000g; rf_cluster_1000g; rf_cluster_100g; rf_genotype_1000g; rf_genotype_100g; rf_genotype_5000g
+ENSMUSG00000046480,Scn4b,9,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_5000g; rf_cluster_1000g; rf_cluster_100g; rf_cluster_5000g; rf_genotype_1000g; rf_genotype_100g; rf_genotype_5000g
+ENSMUSG00000007656,Arpp19,8,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_100g; logreg_cluster_5000g; rf_cluster_1000g; rf_cluster_100g; rf_cluster_5000g; rf_genotype_100g
+ENSMUSG00000022212,Cpne6,8,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_100g; logreg_cluster_5000g; rf_cluster_1000g; rf_cluster_100g; rf_cluster_5000g; rf_genotype_100g
+ENSMUSG00000034796,Cpne7,8,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_100g; logreg_cluster_5000g; rf_cluster_1000g; rf_cluster_100g; rf_genotype_1000g; rf_genotype_100g
+ENSMUSG00000026841,Fibcd1,8,logreg_cluster_1000g; logreg_cluster_100g; logreg_cluster_5000g; rf_cluster_10000g; rf_cluster_1000g; rf_cluster_100g; rf_cluster_5000g; rf_genotype_100g
+ENSMUSG00000028785,Hpca,8,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_100g; logreg_cluster_5000g; rf_cluster_10000g; rf_cluster_100g; rf_genotype_1000g; rf_genotype_100g
+ENSMUSG00000045573,Penk,8,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_5000g; rf_cluster_10000g; rf_cluster_1000g; rf_cluster_100g; rf_cluster_5000g; rf_genotype_100g
+ENSMUSG00000023993,Treml1,8,logreg_genotype_10000g; logreg_genotype_1000g; logreg_genotype_100g; logreg_genotype_5000g; rf_genotype_10000g; rf_genotype_1000g; rf_genotype_100g; rf_genotype_5000g
+ENSMUSG00000036815,Dpp10,7,logreg_cluster_5000g; rf_cluster_10000g; rf_cluster_1000g; rf_cluster_100g; rf_cluster_5000g; rf_genotype_100g; rf_genotype_5000g
+ENSMUSG00000022425,Enpp2,7,logreg_genotype_10g; rf_cluster_10g; rf_genotype_10000g; rf_genotype_1000g; rf_genotype_100g; rf_genotype_10g; rf_genotype_5000g
+ENSMUSG00000020524,Gria1,7,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_100g; logreg_cluster_5000g; rf_cluster_10000g; rf_cluster_1000g; rf_cluster_100g
+ENSMUSG00000005583,Mef2c,7,logreg_cluster_10000g; logreg_cluster_10g; rf_cluster_100g; rf_cluster_10g; rf_genotype_1000g; rf_genotype_100g; rf_genotype_10g
+ENSMUSG00000026259,Ngef,7,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_100g; logreg_cluster_5000g; rf_cluster_1000g; rf_cluster_100g; rf_cluster_5000g
+ENSMUSG00000086040,Wipf3,7,logreg_cluster_5000g; rf_cluster_1000g; rf_cluster_100g; rf_cluster_5000g; rf_genotype_1000g; rf_genotype_100g; rf_genotype_5000g
+ENSMUSG00000029471,Camkk2,6,logreg_cluster_10000g; logreg_cluster_5000g; rf_cluster_10000g; rf_cluster_5000g; rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000055078,Gabra5,6,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_5000g; rf_cluster_1000g; rf_cluster_100g; rf_genotype_100g
+ENSMUSG00000040836,Gpr161,6,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_5000g; rf_cluster_10000g; rf_cluster_1000g; rf_cluster_5000g
+ENSMUSG00000027270,Lamp5,6,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_5000g; rf_cluster_10000g; rf_cluster_100g; rf_cluster_5000g
+ENSMUSG00000021708,Rasgrf2,6,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_5000g; rf_cluster_10000g; rf_cluster_1000g; rf_cluster_5000g
+ENSMUSG00000038530,Rgs4,6,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_100g; logreg_cluster_5000g; rf_cluster_100g; rf_genotype_100g
+ENSMUSG00000007207,Stx1a,6,logreg_cluster_10000g; logreg_cluster_100g; logreg_cluster_5000g; rf_cluster_1000g; rf_cluster_100g; rf_genotype_100g
+ENSMUSG00000061808,Ttr,6,rf_cluster_100g; rf_cluster_10g; rf_genotype_1000g; rf_genotype_100g; rf_genotype_10g; rf_genotype_5000g
+ENSMUSG00000022602,Arc,5,logreg_genotype_100g; rf_genotype_10000g; rf_genotype_1000g; rf_genotype_100g; rf_genotype_5000g
+ENSMUSG00000032503,Arpp21,5,logreg_cluster_10000g; rf_cluster_10000g; rf_cluster_1000g; rf_cluster_100g; rf_cluster_5000g
+ENSMUSG00000056158,Ca10,5,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_5000g; rf_cluster_1000g; rf_cluster_5000g
+ENSMUSG00000030905,Crym,5,logreg_cluster_10000g; logreg_cluster_5000g; rf_cluster_100g; rf_cluster_5000g; rf_genotype_100g
+ENSMUSG00000059213,Ddn,5,logreg_cluster_5000g; rf_cluster_10000g; rf_cluster_1000g; rf_genotype_10000g; rf_genotype_1000g
+ENSMUSG00000025558,Dock9,5,logreg_cluster_1000g; logreg_cluster_100g; logreg_cluster_5000g; rf_cluster_1000g; rf_cluster_100g
+ENSMUSG00000026864,Hspa5,5,logreg_genotype_1000g; logreg_genotype_5000g; rf_genotype_10000g; rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000027419,Pcsk2,5,logreg_cluster_10000g; logreg_cluster_5000g; rf_cluster_5000g; rf_genotype_10000g; rf_genotype_5000g
+ENSMUSG00000087141,Plcxd2,5,rf_cluster_10000g; rf_cluster_5000g; rf_genotype_10000g; rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000025855,Prkar1b,5,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_5000g; rf_cluster_1000g; rf_cluster_5000g
+ENSMUSG00000015090,Ptgds,5,rf_cluster_100g; rf_genotype_10000g; rf_genotype_1000g; rf_genotype_100g; rf_genotype_5000g
+ENSMUSG00000032890,Rims3,5,logreg_cluster_10000g; rf_cluster_10000g; rf_cluster_100g; rf_cluster_5000g; rf_genotype_100g
+ENSMUSG00000039037,St6galnac5,5,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_100g; logreg_cluster_5000g; rf_cluster_100g
+ENSMUSG00000015981,Stk32c,5,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_5000g; rf_cluster_10000g; rf_cluster_1000g
+ENSMUSG00000024736,Tmem132a,5,rf_cluster_10000g; rf_cluster_1000g; rf_cluster_5000g; rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000022708,Zbtb20,5,logreg_cluster_10g; logreg_cluster_5000g; rf_cluster_100g; rf_cluster_10g; rf_genotype_10g
+ENSMUSG00000024008,Cpne5,4,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_5000g; rf_cluster_5000g
+ENSMUSG00000097789,Ctxnd1,4,logreg_cluster_1000g; rf_cluster_100g; rf_cluster_5000g; rf_genotype_100g
+ENSMUSG00000054889,Dsp,4,rf_cluster_1000g; rf_cluster_100g; rf_cluster_5000g; rf_genotype_100g
+ENSMUSG00000098178,ENSMUSG00000098178,4,rf_genotype_10000g; rf_genotype_1000g; rf_genotype_100g; rf_genotype_5000g
+ENSMUSG00000033730,Egr3,4,logreg_genotype_1000g; rf_genotype_10000g; rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000031343,Gabra3,4,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_5000g; rf_cluster_1000g
+ENSMUSG00000020713,Gh,4,logreg_genotype_10g; rf_cluster_10g; rf_genotype_100g; rf_genotype_10g
+ENSMUSG00000068696,Gpr88,4,logreg_cluster_5000g; rf_cluster_100g; rf_genotype_100g; rf_genotype_5000g
+ENSMUSG00000033910,Gucy1a1,4,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_5000g; rf_cluster_10000g
+ENSMUSG00000007617,Homer1,4,logreg_genotype_1000g; rf_genotype_10000g; rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000051726,Kcnf1,4,rf_cluster_1000g; rf_genotype_10000g; rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000022342,Kcnv1,4,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_5000g; rf_cluster_1000g
+ENSMUSG00000035299,Mid1,4,logreg_genotype_1000g; rf_genotype_10000g; rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000098973,Mir6236,4,logreg_genotype_10g; rf_cluster_10g; rf_genotype_100g; rf_genotype_10g
+ENSMUSG00000006476,Nsmf,4,logreg_cluster_10000g; logreg_cluster_1000g; rf_cluster_1000g; rf_cluster_5000g
+ENSMUSG00000044252,Osbpl1a,4,logreg_cluster_5000g; rf_cluster_100g; rf_cluster_5000g; rf_genotype_100g
+ENSMUSG00000050505,Pcdh20,4,logreg_cluster_5000g; rf_cluster_10000g; rf_cluster_1000g; rf_cluster_100g
+ENSMUSG00000039601,Rcan2,4,logreg_cluster_5000g; rf_cluster_10000g; rf_cluster_1000g; rf_cluster_5000g
+ENSMUSG00000021219,Rgs6,4,logreg_cluster_10000g; logreg_cluster_5000g; rf_cluster_1000g; rf_cluster_5000g
+ENSMUSG00000035033,Tbr1,4,logreg_cluster_10000g; logreg_cluster_5000g; rf_cluster_10000g; rf_cluster_5000g
+ENSMUSG00000052387,Trpm3,4,rf_genotype_10000g; rf_genotype_1000g; rf_genotype_100g; rf_genotype_5000g
+ENSMUSG00000027298,Tyro3,4,rf_cluster_1000g; rf_cluster_5000g; rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000099364,5730419F03Rik,3,rf_genotype_10000g; rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000041444,Arhgap32,3,logreg_cluster_10000g; rf_cluster_1000g; rf_cluster_100g
+ENSMUSG00000033161,Atp1a1,3,logreg_cluster_10000g; logreg_cluster_5000g; rf_cluster_10000g
+ENSMUSG00000046447,Camk2n1,3,rf_cluster_1000g; rf_cluster_100g; rf_genotype_100g
+ENSMUSG00000035954,Dock4,3,logreg_cluster_1000g; rf_cluster_10000g; rf_cluster_100g
+ENSMUSG00000092909,ENSMUSG00000092909,3,rf_cluster_10g; rf_genotype_100g; rf_genotype_10g
+ENSMUSG00000095041,ENSMUSG00000095041,3,rf_genotype_10000g; rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000038418,Egr1,3,rf_genotype_1000g; rf_genotype_100g; rf_genotype_5000g
+ENSMUSG00000010803,Gabra1,3,rf_genotype_10000g; rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000034040,Galnt17,3,logreg_cluster_10000g; logreg_cluster_5000g; rf_cluster_5000g
+ENSMUSG00000028005,Gucy1b1,3,logreg_cluster_10000g; rf_cluster_10000g; rf_genotype_10000g
+ENSMUSG00000034275,Igsf9b,3,logreg_genotype_5000g; rf_genotype_10000g; rf_genotype_5000g
+ENSMUSG00000058488,Kl,3,rf_genotype_1000g; rf_genotype_100g; rf_genotype_5000g
+ENSMUSG00000035202,Lars2,3,rf_genotype_1000g; rf_genotype_100g; rf_genotype_5000g
+ENSMUSG00000097767,Miat,3,rf_genotype_1000g; rf_genotype_100g; rf_genotype_5000g
+ENSMUSG00000098343,Mir6240,3,rf_cluster_10g; rf_genotype_100g; rf_genotype_10g
+ENSMUSG00000040037,Negr1,3,logreg_cluster_10000g; logreg_cluster_1000g; rf_genotype_1000g
+ENSMUSG00000067786,Nnat,3,logreg_cluster_10000g; rf_cluster_100g; rf_genotype_100g
+ENSMUSG00000023034,Nr4a1,3,rf_genotype_10000g; rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000049225,Pdp1,3,rf_genotype_10000g; rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000005034,Prkacb,3,logreg_cluster_10000g; rf_cluster_10000g; rf_cluster_5000g
+ENSMUSG00000010175,Prox1,3,logreg_cluster_1000g; logreg_cluster_5000g; rf_cluster_1000g
+ENSMUSG00000056211,R3hdm1,3,rf_genotype_10000g; rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000010086,Rnf112,3,rf_cluster_10000g; rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000050621,Rps27rt,3,logreg_genotype_10g; rf_cluster_10g; rf_genotype_10g
+ENSMUSG00000025986,Slc39a10,3,logreg_cluster_10000g; logreg_cluster_1000g; logreg_cluster_5000g
+ENSMUSG00000025020,Slit1,3,rf_cluster_10000g; rf_cluster_1000g; rf_cluster_100g
+ENSMUSG00000028832,Stmn1,3,rf_cluster_1000g; rf_cluster_100g; rf_genotype_100g
+ENSMUSG00000035168,Tanc1,3,rf_cluster_1000g; rf_cluster_100g; rf_cluster_5000g
+ENSMUSG00000073867,AA474408,2,rf_genotype_1000g; rf_genotype_100g
+ENSMUSG00000029772,Ahcyl2,2,logreg_cluster_10000g; rf_cluster_1000g
+ENSMUSG00000019467,Arhgef25,2,rf_cluster_1000g; rf_cluster_5000g
+ENSMUSG00000030302,Atp2b2,2,logreg_cluster_10000g; rf_cluster_5000g
+ENSMUSG00000057649,Brd9,2,logreg_cluster_10000g; rf_cluster_10000g
+ENSMUSG00000066189,Cacng3,2,logreg_cluster_10000g; rf_cluster_10000g
+ENSMUSG00000024873,Cnih2,2,logreg_cluster_10000g; rf_cluster_1000g
+ENSMUSG00000020173,Cobl,2,rf_cluster_5000g; rf_genotype_1000g
+ENSMUSG00000036052,Dnajb5,2,logreg_genotype_10000g; rf_genotype_10000g
+ENSMUSG00000020848,Doc2b,2,logreg_cluster_10000g; rf_cluster_10000g
+ENSMUSG00000076258,ENSMUSG00000076258,2,rf_genotype_1000g; rf_genotype_100g
+ENSMUSG00000040659,Efhd2,2,rf_cluster_1000g; rf_cluster_5000g
+ENSMUSG00000096768,Erdr1y,2,rf_genotype_10000g; rf_genotype_5000g
+ENSMUSG00000026579,F5,2,rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000031565,Fgfr1,2,rf_cluster_10000g; rf_cluster_5000g
+ENSMUSG00000029135,Fosl2,2,logreg_genotype_10000g; rf_genotype_10000g
+ENSMUSG00000029054,Gabrd,2,logreg_cluster_10000g; rf_cluster_10000g
+ENSMUSG00000020932,Gfap,2,rf_cluster_100g; rf_genotype_100g
+ENSMUSG00000105402,Gm3716,2,rf_cluster_10g; rf_genotype_10g
+ENSMUSG00000102464,Gm38199,2,rf_genotype_10000g; rf_genotype_5000g
+ENSMUSG00000106202,Gm43727,2,rf_genotype_10000g; rf_genotype_5000g
+ENSMUSG00000117104,Gm49893,2,rf_genotype_10000g; rf_genotype_5000g
+ENSMUSG00000021676,Iqgap2,2,rf_cluster_10000g; rf_cluster_5000g
+ENSMUSG00000030102,Itpr1,2,rf_genotype_10000g; rf_genotype_5000g
+ENSMUSG00000031605,Klhl2,2,logreg_cluster_10000g; rf_cluster_10000g
+ENSMUSG00000018334,Ksr1,2,rf_cluster_1000g; rf_cluster_5000g
+ENSMUSG00000026822,Lcn2,2,rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000026354,Lct,2,rf_cluster_10000g; rf_cluster_5000g
+ENSMUSG00000034739,Mfrp,2,rf_cluster_100g; rf_genotype_100g
+ENSMUSG00000025885,Myo5b,2,rf_cluster_10000g; rf_cluster_1000g
+ENSMUSG00000037984,Neurod6,2,rf_cluster_1000g; rf_cluster_5000g
+ENSMUSG00000034825,Nrip3,2,rf_cluster_1000g; rf_cluster_5000g
+ENSMUSG00000054027,Nt5dc3,2,rf_cluster_10000g; rf_cluster_1000g
+ENSMUSG00000030774,Pak1,2,logreg_cluster_10000g; rf_cluster_5000g
+ENSMUSG00000090223,Pcp4,2,rf_cluster_10000g; rf_cluster_5000g
+ENSMUSG00000028248,Pnisr,2,rf_cluster_100g; rf_genotype_100g
+ENSMUSG00000078816,Prkcg,2,rf_cluster_10000g; rf_cluster_5000g
+ENSMUSG00000089809,Rasgef1b,2,logreg_cluster_10000g; rf_genotype_10000g
+ENSMUSG00000031167,Rbm3,2,logreg_genotype_10000g; rf_genotype_10000g
+ENSMUSG00000038331,Satb2,2,rf_cluster_10000g; rf_cluster_5000g
+ENSMUSG00000027834,Serpini1,2,rf_genotype_1000g; rf_genotype_5000g
+ENSMUSG00000030583,Sipa1l3,2,rf_cluster_10000g; rf_cluster_5000g
+ENSMUSG00000109898,6330420H09Rik,1,rf_cluster_100g
+ENSMUSG00000109536,9330162G02Rik,1,rf_genotype_1000g
+ENSMUSG00000028794,A3galt2,1,rf_genotype_10000g
+ENSMUSG00000020610,Amz2,1,rf_genotype_100g
+ENSMUSG00000026463,Atp2b4,1,rf_cluster_100g
+ENSMUSG00000115783,Bc1,1,rf_genotype_100g
+ENSMUSG00000036907,C1ql2,1,rf_cluster_1000g
+ENSMUSG00000040118,Cacna2d1,1,rf_genotype_10000g
+ENSMUSG00000017412,Cacnb4,1,rf_genotype_1000g
+ENSMUSG00000053395,Cacng8,1,rf_cluster_10000g
+ENSMUSG00000057897,Camk2b,1,rf_cluster_10000g
+ENSMUSG00000053819,Camk2d,1,rf_genotype_1000g
+ENSMUSG00000030898,Cckbr,1,rf_cluster_10000g
+ENSMUSG00000090071,Cdk5r2,1,rf_cluster_1000g
+ENSMUSG00000026034,Clk1,1,rf_genotype_10000g
+ENSMUSG00000031778,Cx3cl1,1,rf_genotype_10000g
+ENSMUSG00000033470,Cysltr2,1,rf_genotype_5000g
+ENSMUSG00000042388,Dlgap3,1,rf_genotype_5000g
+ENSMUSG00000037416,Dmxl1,1,rf_genotype_100g
+ENSMUSG00000061576,Dpp6,1,logreg_cluster_10000g
+ENSMUSG00000072680,ENSMUSG00000072680,1,rf_cluster_100g
+ENSMUSG00000100826,ENSMUSG00000100826,1,rf_genotype_100g
+ENSMUSG00000041112,Elmo1,1,logreg_cluster_10000g
+ENSMUSG00000095463,Entpd4,1,rf_cluster_100g
+ENSMUSG00000029648,Flt1,1,rf_genotype_10000g
+ENSMUSG00000039735,Fnbp1l,1,rf_genotype_1000g
+ENSMUSG00000042353,Frem3,1,rf_genotype_10000g
+ENSMUSG00000058624,Gda,1,rf_genotype_10000g
+ENSMUSG00000109523,Gdf1,1,rf_cluster_100g
+ENSMUSG00000097683,Gm26644,1,rf_cluster_10000g
+ENSMUSG00000102172,Gm37873,1,rf_genotype_10000g
+ENSMUSG00000024524,Gnal,1,logreg_cluster_10000g
+ENSMUSG00000045868,Gvin1,1,rf_cluster_100g
+ENSMUSG00000073063,Hbq1b,1,rf_genotype_5000g
+ENSMUSG00000007850,Hnrnph1,1,rf_genotype_1000g
+ENSMUSG00000056708,Ier5,1,rf_genotype_10000g
+ENSMUSG00000048583,Igf2,1,rf_genotype_100g
+ENSMUSG00000033960,Jcad,1,rf_genotype_10000g
+ENSMUSG00000040724,Kcna2,1,rf_genotype_10000g
+ENSMUSG00000058248,Kcnh1,1,logreg_cluster_10000g
+ENSMUSG00000044216,Kcnj4,1,logreg_cluster_10000g
+ENSMUSG00000038773,Kdm3b,1,rf_genotype_100g
+ENSMUSG00000006740,Kif5b,1,rf_genotype_1000g
+ENSMUSG00000038793,Lefty1,1,rf_cluster_10000g
+ENSMUSG00000029823,Luc7l2,1,rf_genotype_1000g
+ENSMUSG00000027210,Meis2,1,rf_cluster_1000g
+ENSMUSG00000038244,Mical2,1,rf_genotype_10000g
+ENSMUSG00000028833,Ncdn,1,logreg_cluster_10000g
+ENSMUSG00000027489,Necab3,1,logreg_cluster_10000g
+ENSMUSG00000028004,Npy2r,1,rf_cluster_5000g
+ENSMUSG00000031618,Nr3c2,1,rf_cluster_100g
+ENSMUSG00000028341,Nr4a3,1,rf_genotype_10000g
+ENSMUSG00000025810,Nrp1,1,logreg_cluster_5000g
+ENSMUSG00000085438,Oip5os1,1,rf_genotype_5000g
+ENSMUSG00000039747,Orai2,1,logreg_cluster_10000g
+ENSMUSG00000029108,Pcdh7,1,rf_genotype_1000g
+ENSMUSG00000036062,Phf24,1,rf_cluster_100g
+ENSMUSG00000048070,Pirt,1,rf_genotype_10000g
+ENSMUSG00000016382,Pls3,1,logreg_cluster_10000g
+ENSMUSG00000029765,Plxna4,1,logreg_cluster_10000g
+ENSMUSG00000059456,Ptk2b,1,rf_cluster_10000g
+ENSMUSG00000020374,Rasgef1c,1,rf_cluster_10000g
+ENSMUSG00000035226,Rims4,1,rf_genotype_10000g
+ENSMUSG00000072214,Septin5,1,logreg_cluster_5000g
+ENSMUSG00000001833,Septin7,1,rf_genotype_5000g
+ENSMUSG00000042743,Sgtb,1,logreg_cluster_10000g
+ENSMUSG00000021892,Sh3bp5,1,rf_cluster_10000g
+ENSMUSG00000053930,Shisa6,1,rf_cluster_100g
+ENSMUSG00000027351,Spred1,1,rf_genotype_10000g
+ENSMUSG00000039218,Srrm2,1,rf_genotype_5000g
+ENSMUSG00000026797,Stxbp1,1,logreg_cluster_10000g
+ENSMUSG00000043079,Synpo,1,rf_genotype_10000g
+ENSMUSG00000065954,Tacc1,1,rf_genotype_10000g
+ENSMUSG00000032289,Thsd4,1,rf_cluster_5000g
+ENSMUSG00000049775,Tmsb4x,1,rf_cluster_10000g
+ENSMUSG00000076498,Trbc2,1,rf_cluster_1000g
+ENSMUSG00000071068,Treml2,1,rf_genotype_10000g
+ENSMUSG00000049699,Ucn2,1,rf_genotype_5000g
+ENSMUSG00000067879,Vxn,1,rf_cluster_10000g
