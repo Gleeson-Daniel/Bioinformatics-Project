@@ -10,16 +10,16 @@ from a3_common import load_labels, load_metadata, load_subset
  
 warnings.filterwarnings("ignore", message="Precision loss")
  
-N_GENES_TESTED = 10000   
+N_GENES_TESTED = 10000
 PADJ_CUTOFF = 0.05
-MIN_DIFF = 0.1           
-MAX_LIST = 500           
+MIN_DIFF = 0.1
+MAX_LIST = 500
+MIN_TERM, MAX_TERM = 10, 500
 MAPPING_PATH = "results/gene_id_mapping.csv"
 RUN_ENRICH = "--no-enrich" not in sys.argv
  
  
 def bh(p):
-    """Benjamini-Hochberg adjusted p-values."""
     p = np.asarray(p)
     n = len(p)
     order = np.argsort(p)
@@ -31,7 +31,6 @@ def bh(p):
  
  
 def compare(vst, in_group, out_group, name):
-    """Welch t-test per gene, in_group vs out_group. Returns a results table."""
     a = vst[in_group].to_numpy()
     b = vst[out_group].to_numpy()
     t, p = stats.ttest_ind(a, b, axis=1, equal_var=False)
@@ -59,7 +58,6 @@ def compare(vst, in_group, out_group, name):
  
  
 def enrich(genes, name):
-    """g:Profiler GO:BP with the tested genes as the custom background."""
     if len(genes) < 5:
         print(f"    {name}: only {len(genes)} genes, skipping enrichment")
         return None
@@ -70,15 +68,17 @@ def enrich(genes, name):
         query=genes,
         sources=["GO:BP"],
         background=BACKGROUND,
-        domain_scope="custom",
+        domain_scope="custom_annotated",
         all_results=True,
     )
     res.to_csv(f"results/a3_enrichment_{name}.csv", index=False)
     sig = res[res["significant"] == True]
-    print(f"    {name}: {len(genes)} genes, {len(res)} terms tested, {len(sig)} significant")
-    for _, row in sig.head(5).iterrows():
-        print(f"      {row['p_value']:.2e}  {row['name']}")
-    return sig
+    specific = sig[(sig["term_size"] >= MIN_TERM) & (sig["term_size"] <= MAX_TERM)]
+    print(f"    {name}: {len(genes)} genes, {len(res)} terms tested, {len(sig)} significant, "
+          f"{len(specific)} specific ({MIN_TERM}-{MAX_TERM} genes)")
+    for _, row in specific.head(5).iterrows():
+        print(f"      {row['p_value']:.2e}  {row['name']}  ({row['intersection_size']}/{row['term_size']})")
+    return specific
  
  
 meta = load_metadata()
@@ -143,3 +143,4 @@ if tops:
     fig.tight_layout()
     fig.savefig("figures/a3_cluster_enrichment.png", dpi=150)
     print("\nWrote figures/a3_cluster_enrichment.png")
+ 
